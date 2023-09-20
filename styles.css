@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+  background-color: #E5BE13;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.content {
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  
+}
+
+.button {
+  border-radius: 100px;
+  background-color: #E5BE13;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px,
+    rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px,
+    rgba(44, 187, 99, .15) 0 16px 32px;
+  color: rgba(10, 10, 10, 0.35);
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Rowdies', cursive;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 2vh;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 40vh;
+  height: 10vh;
+  margin: 50px;
+}
+
+.button:hover {
+  box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px,
+    rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px,
+    rgba(44, 187, 99, .25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.logs {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 8vw;
+  height: 14vh;
+  padding: 20px;
+}
+
+.myVideo {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  border: solid rgba(15, 65, 34, 0.35) 1px;
+  border-radius: 1200px 400px 1400px 200px;
+  box-shadow: rgba(24, 27, 25, 0.35) 0 -25px 18px -14px inset, rgba(24, 27, 25, 0.35) 0 1px 2px,
+    rgba(24, 27, 25, 0.35) 0 2px 4px, rgba(24, 27, 25, 0.35) 0 4px 8px, rgba(24, 27, 25, 0.35) 0 8px 16px,
+    rgba(24, 27, 25, 0.35) 0 16px 32px;
+}
+
+#countdown {
+  font-size: 2em;
+  margin-top: 20px;
+  color: #000; /* Adjust the color as needed */
+}
